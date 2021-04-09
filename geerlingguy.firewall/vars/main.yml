@@ -1,0 +1,13 @@
+firewall_allowed_tcp_ports:
+  - "22"
+  - "25"
+  - "80"
+  - "25333"
+
+firewall_allowed_udp_ports:
+  - "33"
+  - "856"
+
+firewall_forwarded_tcp_ports:
+  - { src: "25", dest: "2525" }
+  - { src: "86", dest: "8686" }
