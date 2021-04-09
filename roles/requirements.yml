@@ -1,5 +1,6 @@
 ---
 roles:
+  - name: geerlingguy.firewall
   - name: geerlingguy.security
   - name: geerlingguy.apache
   - name: geerlingguy.varnish
